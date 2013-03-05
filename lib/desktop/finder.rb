@@ -2,6 +2,9 @@ require "desktop/finder/version"
 
 module Desktop
   module Finder
-    # Your code goes here...
+
+    def Finder.test
+      puts '-----------test finder gem--------------'
+    end
   end
 end
